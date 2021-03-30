@@ -1,0 +1,25 @@
+  This is the AirQo twilio whatsapp API for Airqommunity communications
+  Call this api passing the messages received.
+  ---
+  tags:
+    - Update Number API
+  parameters:
+    - name: name
+      in: query
+      type: string
+      required: true
+      description: name of member
+    - name: number
+      in: query
+      type: string
+      description: 
+    - name: address
+      in: query
+      type: string
+      description: location
+
+  responses:
+    500:
+      description: Something went wrong. Try again
+    200:
+      description: Message received.

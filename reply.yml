@@ -1,0 +1,29 @@
+
+  This is the AirQo twilio whatsapp API for Airqommunity communications
+  Call this api passing the messages received.
+  ---
+  tags:
+    - Reply API
+
+
+  responses:
+    500:
+      description: Something went wrong. Try again
+    200:
+      description: Message received.
+      schema:
+        id: post_endpoint
+        properties:
+          phone_number:
+            type: integer
+            description: First Mark
+            default: 10
+          message:
+            type: integer
+            description: Second Mark
+            default: 10
+          datetime:
+            type: integer
+            description: Third Mark
+            default: 10
+

@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+#ignore folders
+images/
+pdfdoc/
+
+#ignore contact files
+msg_auth.py
